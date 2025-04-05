@@ -1,12 +1,13 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import Image from 'next/image'
 
 function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
     <div className="absolute inset-0 z-0">
       <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-indigo-900/90 z-10"></div>
-      <img 
+      <Image 
         className="w-full h-full object-cover" 
         src="/api/placeholder/1920/1080" 
         alt="Educational environment" 

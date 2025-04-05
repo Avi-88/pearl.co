@@ -33,7 +33,7 @@ function Testimonials() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {testimonials.map((item, idx) => (
           <div key={idx} className="bg-white p-8 rounded-xl shadow-lg">
-            <div className="text-blue-600 text-4xl mb-4">"</div>
+            <div className="text-blue-600 text-4xl mb-4">`&#34;`</div>
             <p className="text-gray-600 mb-6 italic">{item.quote}</p>
             <div>
               <p className="font-bold text-gray-800">{item.author}</p>

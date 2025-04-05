@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function About() {
@@ -6,7 +7,7 @@ function About() {
     <div className="container mx-auto px-6">
       <div className="flex flex-col md:flex-row items-center gap-12">
         <div className="w-full md:w-1/2">
-          <img 
+          <Image 
             src="/api/placeholder/600/400" 
             alt="About us" 
             className="rounded-lg shadow-lg w-full h-auto"

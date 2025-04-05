@@ -1,8 +1,6 @@
 "use client"
 // pages/index.js
 import Head from 'next/head';
-import { useState } from 'react';
-import { motion } from 'framer-motion';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Services from '@/components/Services';
@@ -36,7 +34,7 @@ export default function Home() {
           <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-12 text-center text-white">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Educational Journey?</h2>
             <p className="text-xl text-blue-100 mb-10 max-w-3xl mx-auto">
-              Whether you're looking for placement services, training programs, or consultancy, we're here to help you achieve excellence.
+              Whether you`&#39;`re looking for placement services, training programs, or consultancy, we`&#39;`re here to help you achieve excellence.
             </p>
             <a 
               href="#contact" 
